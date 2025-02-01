@@ -1,0 +1,14 @@
+{
+	"id": "YACBM",
+	"name": "Yet Another Community Balatro Mod",
+	"display_name": "YACBM",
+	"author": ["trifdotnet", "multiple other artists and helpers"],
+	"description": "Yet Another Community Balatro Mod! Adds 25+ Jokers designed by the community, and programmed by trif/trifdotnet.",
+	"prefix": "YACBM",
+	"main_file": "YACBM.lua",
+	"priority": 0,
+	"badge_colour": "3b70c4",
+	"badge_text_colour": "f0f0f0",
+	"version": "0.0.1",
+	"dependencies": []
+}
