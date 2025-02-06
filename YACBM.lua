@@ -47,7 +47,7 @@ SMODS.Joker {
         name = "J-Reader Card",
         text = {
             "Blind size multiplied {X:mult,C:white}X#1#{}",
-            "Retriggers {C:attention}all Blueprint-compatible{} jokers",
+            "Copies {C:attention}all Blueprint-compatible{} jokers",
             "{C:inactive}Idea and art by @hatstack!{}"
         }
     },
