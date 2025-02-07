@@ -231,13 +231,15 @@ SMODS.Joker {
                         G.E_MANAGER:add_event(Event({
                             func = function()
                                 v:juice_up()
-                                v:set_ability(G.P_CENTERS.m_bonus, nil, true)
                                 return true end
                         }))
                     end
                 end
             end
             if #bonus > 0 then
+                for i, v in ipairs(bonus) do
+                    v:set_ability(G.P_CENTERS.m_bonus, nil, true)
+                end
                 return {
                     message = "Bonus'd!",
                     colour = G.C.PURPLE,
