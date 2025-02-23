@@ -528,7 +528,8 @@ SMODS.Joker{
         name = "Burning Memory",
         text = {
             "{X:mult,C:white}X#1#{} Mult",
-            "Mult {X:mult,C:white}/#2#{} every round"
+            "Mult {X:mult,C:white}/#2#{} every round",
+            "{C:inactive}Idea and art by @arlisbloxer05!{}"
         }
     },
     config = {
