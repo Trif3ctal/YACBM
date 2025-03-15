@@ -7,9 +7,7 @@ priority = 0
 [patches.pattern]
 target = "game.lua"
 pattern = '''
-                                end
-
-                                G.CONTROLLER:snap_to({node = G.shop:get_UIE_by_ID('next_round_button')})
+G.CONTROLLER:snap_to({node = G.shop:get_UIE_by_ID('next_round_button')})
 '''
 position = "before"
 payload = '''
